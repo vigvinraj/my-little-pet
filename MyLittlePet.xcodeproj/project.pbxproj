@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42148E891D2875F4003E0DAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42148E881D2875F4003E0DAF /* AppDelegate.swift */; };
+		42148E8B1D2875F4003E0DAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42148E8A1D2875F4003E0DAF /* ViewController.swift */; };
+		42148E8E1D2875F4003E0DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42148E8C1D2875F4003E0DAF /* Main.storyboard */; };
+		42148E901D2875F4003E0DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42148E8F1D2875F4003E0DAF /* Assets.xcassets */; };
+		42148E931D2875F4003E0DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42148E911D2875F4003E0DAF /* LaunchScreen.storyboard */; };
+		42148E9E1D2875F4003E0DAF /* MyLittlePetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42148E9D1D2875F4003E0DAF /* MyLittlePetTests.swift */; };
+		42148EA91D2875F4003E0DAF /* MyLittlePetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42148EA81D2875F4003E0DAF /* MyLittlePetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42148E9A1D2875F4003E0DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42148E7D1D2875F4003E0DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42148E841D2875F4003E0DAF;
+			remoteInfo = MyLittlePet;
+		};
+		42148EA51D2875F4003E0DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42148E7D1D2875F4003E0DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42148E841D2875F4003E0DAF;
+			remoteInfo = MyLittlePet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42148E851D2875F4003E0DAF /* MyLittlePet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLittlePet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42148E881D2875F4003E0DAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42148E8A1D2875F4003E0DAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42148E8D1D2875F4003E0DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42148E8F1D2875F4003E0DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42148E921D2875F4003E0DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42148E941D2875F4003E0DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42148E991D2875F4003E0DAF /* MyLittlePetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLittlePetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42148E9D1D2875F4003E0DAF /* MyLittlePetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLittlePetTests.swift; sourceTree = "<group>"; };
+		42148E9F1D2875F4003E0DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42148EA41D2875F4003E0DAF /* MyLittlePetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLittlePetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42148EA81D2875F4003E0DAF /* MyLittlePetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLittlePetUITests.swift; sourceTree = "<group>"; };
+		42148EAA1D2875F4003E0DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42148E821D2875F4003E0DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42148E961D2875F4003E0DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42148EA11D2875F4003E0DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42148E7C1D2875F4003E0DAF = {
+			isa = PBXGroup;
+			children = (
+				42148E871D2875F4003E0DAF /* MyLittlePet */,
+				42148E9C1D2875F4003E0DAF /* MyLittlePetTests */,
+				42148EA71D2875F4003E0DAF /* MyLittlePetUITests */,
+				42148E861D2875F4003E0DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42148E861D2875F4003E0DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42148E851D2875F4003E0DAF /* MyLittlePet.app */,
+				42148E991D2875F4003E0DAF /* MyLittlePetTests.xctest */,
+				42148EA41D2875F4003E0DAF /* MyLittlePetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42148E871D2875F4003E0DAF /* MyLittlePet */ = {
+			isa = PBXGroup;
+			children = (
+				42148E881D2875F4003E0DAF /* AppDelegate.swift */,
+				42148E8A1D2875F4003E0DAF /* ViewController.swift */,
+				42148E8C1D2875F4003E0DAF /* Main.storyboard */,
+				42148E8F1D2875F4003E0DAF /* Assets.xcassets */,
+				42148E911D2875F4003E0DAF /* LaunchScreen.storyboard */,
+				42148E941D2875F4003E0DAF /* Info.plist */,
+			);
+			path = MyLittlePet;
+			sourceTree = "<group>";
+		};
+		42148E9C1D2875F4003E0DAF /* MyLittlePetTests */ = {
+			isa = PBXGroup;
+			children = (
+				42148E9D1D2875F4003E0DAF /* MyLittlePetTests.swift */,
+				42148E9F1D2875F4003E0DAF /* Info.plist */,
+			);
+			path = MyLittlePetTests;
+			sourceTree = "<group>";
+		};
+		42148EA71D2875F4003E0DAF /* MyLittlePetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42148EA81D2875F4003E0DAF /* MyLittlePetUITests.swift */,
+				42148EAA1D2875F4003E0DAF /* Info.plist */,
+			);
+			path = MyLittlePetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42148E841D2875F4003E0DAF /* MyLittlePet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42148EAD1D2875F4003E0DAF /* Build configuration list for PBXNativeTarget "MyLittlePet" */;
+			buildPhases = (
+				42148E811D2875F4003E0DAF /* Sources */,
+				42148E821D2875F4003E0DAF /* Frameworks */,
+				42148E831D2875F4003E0DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLittlePet;
+			productName = MyLittlePet;
+			productReference = 42148E851D2875F4003E0DAF /* MyLittlePet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42148E981D2875F4003E0DAF /* MyLittlePetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42148EB01D2875F4003E0DAF /* Build configuration list for PBXNativeTarget "MyLittlePetTests" */;
+			buildPhases = (
+				42148E951D2875F4003E0DAF /* Sources */,
+				42148E961D2875F4003E0DAF /* Frameworks */,
+				42148E971D2875F4003E0DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42148E9B1D2875F4003E0DAF /* PBXTargetDependency */,
+			);
+			name = MyLittlePetTests;
+			productName = MyLittlePetTests;
+			productReference = 42148E991D2875F4003E0DAF /* MyLittlePetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42148EA31D2875F4003E0DAF /* MyLittlePetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42148EB31D2875F4003E0DAF /* Build configuration list for PBXNativeTarget "MyLittlePetUITests" */;
+			buildPhases = (
+				42148EA01D2875F4003E0DAF /* Sources */,
+				42148EA11D2875F4003E0DAF /* Frameworks */,
+				42148EA21D2875F4003E0DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42148EA61D2875F4003E0DAF /* PBXTargetDependency */,
+			);
+			name = MyLittlePetUITests;
+			productName = MyLittlePetUITests;
+			productReference = 42148EA41D2875F4003E0DAF /* MyLittlePetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42148E7D1D2875F4003E0DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vignesh Kumar Rajasekaran";
+				TargetAttributes = {
+					42148E841D2875F4003E0DAF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					42148E981D2875F4003E0DAF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 42148E841D2875F4003E0DAF;
+					};
+					42148EA31D2875F4003E0DAF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 42148E841D2875F4003E0DAF;
+					};
+				};
+			};
+			buildConfigurationList = 42148E801D2875F4003E0DAF /* Build configuration list for PBXProject "MyLittlePet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42148E7C1D2875F4003E0DAF;
+			productRefGroup = 42148E861D2875F4003E0DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42148E841D2875F4003E0DAF /* MyLittlePet */,
+				42148E981D2875F4003E0DAF /* MyLittlePetTests */,
+				42148EA31D2875F4003E0DAF /* MyLittlePetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42148E831D2875F4003E0DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42148E931D2875F4003E0DAF /* LaunchScreen.storyboard in Resources */,
+				42148E901D2875F4003E0DAF /* Assets.xcassets in Resources */,
+				42148E8E1D2875F4003E0DAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42148E971D2875F4003E0DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42148EA21D2875F4003E0DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42148E811D2875F4003E0DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42148E8B1D2875F4003E0DAF /* ViewController.swift in Sources */,
+				42148E891D2875F4003E0DAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42148E951D2875F4003E0DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42148E9E1D2875F4003E0DAF /* MyLittlePetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42148EA01D2875F4003E0DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42148EA91D2875F4003E0DAF /* MyLittlePetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42148E9B1D2875F4003E0DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42148E841D2875F4003E0DAF /* MyLittlePet */;
+			targetProxy = 42148E9A1D2875F4003E0DAF /* PBXContainerItemProxy */;
+		};
+		42148EA61D2875F4003E0DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42148E841D2875F4003E0DAF /* MyLittlePet */;
+			targetProxy = 42148EA51D2875F4003E0DAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42148E8C1D2875F4003E0DAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42148E8D1D2875F4003E0DAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42148E911D2875F4003E0DAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42148E921D2875F4003E0DAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42148EAB1D2875F4003E0DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42148EAC1D2875F4003E0DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42148EAE1D2875F4003E0DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyLittlePet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.MyLittlePet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42148EAF1D2875F4003E0DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyLittlePet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.MyLittlePet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42148EB11D2875F4003E0DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyLittlePetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.MyLittlePetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLittlePet.app/MyLittlePet";
+			};
+			name = Debug;
+		};
+		42148EB21D2875F4003E0DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyLittlePetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.MyLittlePetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyLittlePet.app/MyLittlePet";
+			};
+			name = Release;
+		};
+		42148EB41D2875F4003E0DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyLittlePetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.MyLittlePetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyLittlePet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		42148EB51D2875F4003E0DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyLittlePetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.MyLittlePetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyLittlePet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42148E801D2875F4003E0DAF /* Build configuration list for PBXProject "MyLittlePet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42148EAB1D2875F4003E0DAF /* Debug */,
+				42148EAC1D2875F4003E0DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42148EAD1D2875F4003E0DAF /* Build configuration list for PBXNativeTarget "MyLittlePet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42148EAE1D2875F4003E0DAF /* Debug */,
+				42148EAF1D2875F4003E0DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42148EB01D2875F4003E0DAF /* Build configuration list for PBXNativeTarget "MyLittlePetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42148EB11D2875F4003E0DAF /* Debug */,
+				42148EB21D2875F4003E0DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42148EB31D2875F4003E0DAF /* Build configuration list for PBXNativeTarget "MyLittlePetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42148EB41D2875F4003E0DAF /* Debug */,
+				42148EB51D2875F4003E0DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42148E7D1D2875F4003E0DAF /* Project object */;
+}
