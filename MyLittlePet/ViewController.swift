@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var penalty1Img: UIImageView!
     @IBOutlet weak var penalty2Img: UIImageView!
     @IBOutlet weak var penalty3Img: UIImageView!
+    @IBOutlet weak var restartBtn: UIButton!
     
     let DIM_ALPHA:CGFloat = 0.2
     let OPAQUE: CGFloat = 1.0
@@ -143,7 +144,18 @@ class ViewController: UIViewController {
         timer.invalidate()
         monsterImg.playDeathAnimation()
         sfxDeath.play()
+        restartBtn.hidden = false
+       
     }
 
+    @IBAction func restartBtn(sender: AnyObject) {
+        penalty1Img.alpha = DIM_ALPHA
+        penalty2Img.alpha = DIM_ALPHA
+        penalty3Img.alpha = DIM_ALPHA
+        monsterImg.playIdleAnimation()
+        penalties = 0
+        startTimer()
+        restartBtn.hidden = true
+    }
 }
 
