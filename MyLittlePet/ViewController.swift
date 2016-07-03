@@ -18,6 +18,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var penalty2Img: UIImageView!
     @IBOutlet weak var penalty3Img: UIImageView!
     @IBOutlet weak var restartBtn: UIButton!
+    @IBOutlet weak var heroImg: UIButton!
+    @IBOutlet weak var golemImg: UIButton!
+    @IBOutlet weak var panelImg: UIImageView!
     
     let DIM_ALPHA:CGFloat = 0.2
     let OPAQUE: CGFloat = 1.0
@@ -27,7 +30,7 @@ class ViewController: UIViewController {
     var timer:NSTimer!
     var monsterHappy = false
     var currentItem:UInt32 = 0
-    
+    var monster = ""
     var musicPlayer:AVAudioPlayer!
     var sfxHeart:AVAudioPlayer!
     var sfxBite:AVAudioPlayer!
@@ -68,7 +71,7 @@ class ViewController: UIViewController {
             print(err.debugDescription)
         }
         
-        startTimer()
+        
        }
     
     func itemDroppedOnCharacter(notif: AnyObject){
@@ -142,7 +145,7 @@ class ViewController: UIViewController {
     
     func gameOver(){
         timer.invalidate()
-        monsterImg.playDeathAnimation()
+        monsterImg.playDeathAnimation(monster)
         sfxDeath.play()
         restartBtn.hidden = false
        
@@ -152,10 +155,41 @@ class ViewController: UIViewController {
         penalty1Img.alpha = DIM_ALPHA
         penalty2Img.alpha = DIM_ALPHA
         penalty3Img.alpha = DIM_ALPHA
-        monsterImg.playIdleAnimation()
+        monsterImg.playIdleAnimation(monster)
         penalties = 0
         startTimer()
         restartBtn.hidden = true
+    }
+    @IBAction func onGolemPressed(sender: AnyObject) {
+        
+        monster = "golem"
+        golemImg.hidden = true
+        heroImg.hidden = true
+        monsterImg.hidden = false
+        
+        panelImg.hidden = false
+        penalty1Img.hidden = false
+        penalty2Img.hidden = false
+        penalty3Img.hidden = false
+        foodImg.hidden = false
+        heartImg.hidden = false
+        monsterImg.playIdleAnimation(monster)
+        startTimer()
+        
+    }
+    @IBAction func onHeroPressed(sender: AnyObject) {
+        monster = "hero"
+        golemImg.hidden = true
+        heroImg.hidden = true
+        monsterImg.hidden = false
+        foodImg.hidden = false
+        heartImg.hidden = false
+        panelImg.hidden = false
+        penalty1Img.hidden = false
+        penalty2Img.hidden = false
+        penalty3Img.hidden = false
+        monsterImg.playIdleAnimation(monster)
+        startTimer()
     }
 }
 
